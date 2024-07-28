@@ -78,18 +78,102 @@ nav {
 }
 
 .content-1 {
+    width: 65%;
+    height:56rem;
+}
+
+.raja-ampat {
     width: 75%;
-    height:45rem;
-    border: 1px solid black;
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+blockquote > i {
+    color: #798DA3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-left:100px;
+}
+
+.content-2 {
+    display: flex;
+    padding-left:100px;
+    align-items: center;
     
 }
 
-.content-form {
-    width:25%;
-    height: 40rem;
+.profile {
+    width: 60px;
+    height:60px;
+    background-image: url(https://picsum.photos/200);
+    border-radius:100%;
+    margin-left:50px;
+}
+
+.desc-profile {
+    padding-left:20px;
+}
+
+.content-3 {
+    width:35rem;
+    height:22rem;
+    margin-left:100px;
+    margin-top:20px;
+}
+
+#teks-1 {
+    color:#3B4754;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.list-section-1 {
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+}
+
+.icon-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
     border: 1px solid black;
+    background-image: url(https://picsum.photos/40);
+}
+
+.list-section-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon-2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/40);
+}
+
+.list-section-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon-3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/40);
+}
+
+.content-form {
+    width:35%;
+    height: 26rem;
     padding: 30px;
-    
 }
 
 
@@ -138,12 +222,188 @@ option:first {
     
 }
 
-.raja-ampat {
-    width: 75%;
+/*OUR PACKAGE*/
+.judul-2 {
+    color:#3B4754;
+    font-size: 2rem;
+    text-align: center;
 }
 
-blockquote > i {
-    color: #798DA3;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+    height: 650px;
+    align-items: center;
 }
+
+
+.destination-item-1 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bali {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bali {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+
+.destination-item-2 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-jogja {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-jogja {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+.destination-item-3 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-labuanbajo {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-labuanbajo {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+.destination-item-4 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-lombok {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-lombok {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+.destination-item-5 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bandung {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bandung {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+.destination-item-6 {
+    width: 22rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bromo {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bromo {
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+
+}
+
+/* CLOSING */
+.judul-3 {
+    text-align: center;
+    color: #2b2f33;
+    font-size: 2rem;
+}
+.desc-judul-3 {
+    text-align: center;
+    
+}
+
+/*
+#tombol-action {
+    background-color: #2b2f33;
+    color: white;
+    font-weight: bolder;
+    width: 298px;
+    height: 30px;
+    border-radius: 5px;
+
+}*/
