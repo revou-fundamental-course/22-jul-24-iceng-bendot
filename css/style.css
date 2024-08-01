@@ -1,6 +1,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+
 
 
 
@@ -10,13 +14,16 @@ nav {
     justify-content: space-between;
     padding: 12px;
     align-items: center;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    z-index: 10;
 }
 
 .nav-container {
     display: flex;
-    margin-right: 15px;
-    
-
+    margin-right: 20px;
 }
 
 .nav-items {
@@ -28,13 +35,19 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     border: 1px solid black;
-    
-    
+}
+
+.nav-items:hover {
+    background-color: #798DA3;
+    transition: 0.6s ease;
 }
 
 .text-icon {
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 0;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    color:#3B4754;
 }
 
 #item-1 {
@@ -69,6 +82,7 @@ nav {
 .desc-judul {
     color: #798DA3;
     font-weight: 300;
+    margin: 30px 0 0 0;
 }
 
 /*KONTEN GAMBAR AMA FORM*/
@@ -79,21 +93,17 @@ nav {
 
 .content-1 {
     width: 65%;
-    height:56rem;
+    height:50rem;
+    position: relative;
+    margin: auto;
 }
 
-.raja-ampat {
-    width: 75%;
-    padding: 100px;
-    padding-top: 0;
-    padding-bottom:0;
-}
-
-blockquote > i {
+.quote {
     color: #798DA3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    padding-left:100px;
+    padding-left:150px;
+    margin: 15px 0 15px 0;
 }
 
 .content-2 {
@@ -104,8 +114,8 @@ blockquote > i {
 }
 
 .profile {
-    width: 60px;
-    height:60px;
+    width: 45px;
+    height:45px;
     background-image: url(https://picsum.photos/200);
     border-radius:100%;
     margin-left:50px;
@@ -126,6 +136,7 @@ blockquote > i {
     color:#3B4754;
     font-size: larger;
     font-weight: bolder;
+    margin: 35px 0 0 0;
 }
 
 .list-section-1 {
@@ -138,7 +149,6 @@ blockquote > i {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    border: 1px solid black;
     background-image: url(https://picsum.photos/40);
 }
 
@@ -152,7 +162,6 @@ blockquote > i {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    border: 1px solid black;
     background-image: url(https://picsum.photos/40);
 }
 
@@ -166,7 +175,6 @@ blockquote > i {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    border: 1px solid black;
     background-image: url(https://picsum.photos/40);
 }
 
@@ -243,16 +251,14 @@ option:first {
 .destination-item-1 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-bali {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -261,23 +267,21 @@ option:first {
 .desc-bali {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 
 .destination-item-2 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-jogja {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -286,22 +290,20 @@ option:first {
 .desc-jogja {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 .destination-item-3 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-labuanbajo {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -310,22 +312,20 @@ option:first {
 .desc-labuanbajo {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 .destination-item-4 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-lombok {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -334,22 +334,20 @@ option:first {
 .desc-lombok {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 .destination-item-5 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-bandung {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -358,22 +356,20 @@ option:first {
 .desc-bandung {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 .destination-item-6 {
     width: 22rem;
     height: 15rem;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
 
 .icon-bromo {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    border: 1px solid black;
     margin-top: 30px;
     margin-left: 30px;
     background-image: url(https://picsum.photos/35);
@@ -382,7 +378,7 @@ option:first {
 .desc-bromo {
     width: 250px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 35px;
 
 }
 
@@ -394,16 +390,453 @@ option:first {
 }
 .desc-judul-3 {
     text-align: center;
-    
+    color: #798DA3;
+    margin: 15px 0 15px 0;
 }
 
-/*
-#tombol-action {
+.parent {
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+}
+.tombol-action {
+    background-color: #2b2f33;
+    color: white;
+    font-weight: bold;
+    width: 225px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-footer {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin: 50px 0 0 0;
+}
+
+.footer-icon {
+    text-align: center;
+    font-size: 1.2rem;
+    color:#3B4754;
+    font-weight: 600;
+    padding: 20px 0 0 0;
+}
+.desc-footer {
+    color: #798DA3;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 12px;
+}
+
+
+@media (min-width:320px) and (max-width:767px) {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+    /* NAVIGASI */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    padding-right: 110px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    align-content: center;
+    font-size: 12px;
+}
+.nav-items:hover {
+    background-color: #798DA3;
+    transition: 0.6s ease;
+}
+.text-icon {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#item-1 {
+    border-right: transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#item-2 {
+    border-right: transparent;
+}
+
+#item-3 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* KONTEN */
+.main-content-1 {
+    display: block;
+    margin: 10px;
+}
+
+.content-1 {
+    width: fit-content;
+    height:45rem;
+}
+
+img {
+    width: 75%;
+    vertical-align: middle;
+    padding-right: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.quote {
+    color: #798DA3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-left:0;
+    font-size: 14px;
+    width:100%;
+    text-align: center;
+}
+
+.content-2 {
+    display: flex;
+    padding-left:0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.profile {
+    width: 58px;
+    height:58px;
+    background-image: url(https://picsum.photos/200);
+    border-radius:100%;
+    margin-left:0;
+}
+
+.floren {
+    font-size: 20px;
+}
+.iburumah {
+    font-size: 15px;
+}
+
+.desc-profile {
+    padding-left:20px;
+}
+
+.content-3 {
+    width: 100%;
+    height:22rem;
+    margin-left:0;
+    margin-top:80px;
+}
+
+#teks-1 {
+    color:#3B4754;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list-section-1 {
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+    justify-content: center;
+}
+
+.icon-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/35);
+}
+.first-feature {
+    font-size: 14px;
+}
+
+.list-section-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    padding-left: 19px;
+}
+
+.icon-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/35);
+}
+.second-feature {
+    font-size: 14px;
+}
+
+.list-section-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.icon-3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/35);
+}
+.third-feature {
+    font-size: 14px;
+}
+
+.content-form {
+    width:100%;
+    height: 26rem;
+    padding: 15px;
+}
+
+
+.judul-form {
+    height: 50px;
+    font-weight: bolder;
+    font-size:x-large;
+    color:#3B4754;
+    font-size: 1.3rem;
+}
+
+.desc-form {
+    color:#798DA3;
+    font-size: 15px;
+}
+
+.your-name {
+    font-size: 12px;
+}
+#name {
+    width:100%;
+    height:35px;
+    border-radius: 5px;
+}
+
+.email-address {
+    font-size: 12px;
+}
+#mail {
+    width:100%;
+    height:35px;
+    border-radius: 5px;
+    border-color: #999;
+}
+
+.interest-kau {
+    font-size: 12px;
+}
+#dropdown {
+    width:100%;
+    height:38px;
+    border-radius: 5px;
+}
+
+option:first {
+    color:#999;
+}
+
+#tombol-submit {
     background-color: #2b2f33;
     color: white;
     font-weight: bolder;
-    width: 298px;
-    height: 30px;
-    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;   
+}
 
-}*/
+/*OUR PACKAGE*/
+.judul-2 {
+    color:#3B4754;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+    height: 650px;
+    align-items: center;
+}
+
+
+.destination-item-1 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bali {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bali {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+
+.destination-item-2 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-jogja {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-jogja {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+.destination-item-3 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-labuanbajo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-labuanbajo {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+.destination-item-4 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-lombok {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-lombok {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+.destination-item-5 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bandung {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bandung {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+.destination-item-6 {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-bromo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(https://picsum.photos/35);
+}
+
+.desc-bromo {
+    width: 250px;
+    height: 200px;
+    padding-top: 35px;
+
+}
+
+
+.main-closing {
+    margin-top: 825px;
+}
+
+.desc-judul-3 {
+    margin-top: 35px;
+    color: #798DA3;
+}
+}
+    
